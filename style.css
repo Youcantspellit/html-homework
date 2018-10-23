@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* nav {
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    top: 0;
+    background: green;
+    z-index: 99999;
+}
+
+li {
+    display: inline;
+}
+
+nav { 
+    padding: 1em 0; 
+}
+ul.sub_menu {
+     list-style: none; 
+     padding: 0px; 
+     margin: 0px; 
+     font-weight: bold;
+      position: relative; 
+      text-align: center; 
+    }
+nav > ul.sub_menu:after {
+     content: "";
+      clear: both; 
+      display: block; 
+    }
+ul.sub_menu li {
+     display: inline-block;
+      text-align: left; 
+    }
+ul.sub_menu li a {
+     display: block; 
+     padding: 5px 10px; 
+     text-decoration: none; 
+     color: #444; }
+ul.sub_menu li a:hover { 
+    background-color: #ccc; 
+} */
+
+.first, .second{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.first {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg);
+}
+.first, h1, .white-p {
+    color: white;
+    position: relative;
+    margin: 30px auto;
+} 
+.first h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+}
+button {
+    height: 54px;
+    width: 200px;
+    border: 2px solid white;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+.purple-button {
+    border: 2px solid #5d47d7;
+    background: #5d47d7;
+}
+.purple-button:hover{
+    background-color: #745cf9;
+}
+
+
+h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.seo-main, .portfolio-main {
+    position: relative;
+    width: 100vw;
+    /* margin: 100px 0px; */
+    padding: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seo-img img {
+    max-height: 460px;
+    max-width: 650px;
+}
+.portfolio-img img {
+    max-height: 460px;
+    max-width: 650px;
+}
+
+.seo-article, .portfolio-article {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 0 100px;
+}
+ .seo-article p {
+    margin: 40px 0;
+    max-width: 300px;
+    color: #8c979e;
+}
+.portfolio-article p {
+    margin: 40px 0;
+    max-width: 300px;
+    color: #8c979e;
+}
+.portfolio-main {
+    background-color: #f5f5f5;
+}
+
+.second {
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1452723312111-3a7d0db0e024.jpg);
+    width: 100vw;
+    height: 500px;
+}
+.second, h1, .white-p {
+    color: white;
+    position: relative;
+} 
+.second h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.limitless-main {
+    position: relative;
+    background-color: #f5f5f5;
+
+}
+.limitless-main img{
+    display: block;
+    width: 1200px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.limitless-article {
+    position: relative;
+    text-align: center;
+    display: block;
+    padding: 100px 0 50px;
+    margin-left: auto;
+}
+.limitless-article p {
+    color: #8c979e;
+    padding: 20px 0;
+}
+
+
+.latest-projects 
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 1250px;
+    background-color: #333;
+    height: fit-content;
+}
+
+.latest-projects h3 {
+    padding-top: 100px;
+}
+.latest-projects p {
+    padding: 50px 0;
+}
+
+.flex-container {
+    position: relative;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row; 
+}
+.flex-container p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.flex-container div {
+    width: 460px;
+    height: 330px;
+    background-size: cover;
+}
+.flex-container div:hover {
+    opacity: 0.8;
+  }
+  .flex-container {
+    transition: .5s ease;
+  }
+
+  .flex-container p {
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+#project1 {
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1443890484047-5eaa67d1d630-1.jpg);
+}
+#project1:hover p {
+    opacity: 1;
+  }
+#project2 {
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1422568374078-27d3842ba676-1.jpg);
+}
+#project2:hover p {
+    opacity: 1;
+  }
+#project3 {
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1447834353189-91c48abf20e1-1-1.jpg);
+}
+#project3:hover p {
+    opacity: 1;
+  }
+#project4 {
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1447877085163-3cce903855cd-1.jpg);
+}
+#project4:hover p {
+    opacity: 1;
+  }
+#project5 {
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1447958374760-1ce70cf11ee3-1-1.jpg);
+}
+#project5:hover p {
+    opacity: 1;
+  }
+#project6 {
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1430329429612-babb42f88673-1-1.jpg);
+}
+#project6:hover p {
+    opacity: 1;
+  }
+#project7 {
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1449057528837-7ca097b3520c-1-1.jpg);
+}
+#project7:hover p {
+    opacity: 1;
+  }
+#project8 {
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1449168013943-3a15804bb41c-1-1.jpg);
+}
+#project8:hover p {
+    opacity: 1;
+  }
+#project9 {
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1451186859696-371d9477be93-1-1.jpg);
+}
+#project9:hover p {
+    opacity: 1;
+  }
+#project10 {
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1448518184296-a22facb4446f-1-1.jpg);
+}#project10:hover p {
+    opacity: 1;
+  }
+
+.feedback{
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1451417379553-15d8e8f49cde.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.feedback div{
+    position: relative; 
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 25%;
+    text-align: center;
+    color: white;
+
+}
+.feedback p {
+    padding-top: 50px;
+}
