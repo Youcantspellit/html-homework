@@ -5,7 +5,9 @@
 
 /* nav {
     position: fixed;
-    display: flex;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
     width: 100vw;
     height: 60px;
     top: 0;
